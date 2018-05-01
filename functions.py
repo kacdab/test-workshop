@@ -23,3 +23,9 @@ def price_calculation(age):
             return 200
     else:
         return None
+
+def test_if_exists(arg):
+    if(arg):
+        return True
+    else:
+        return False
