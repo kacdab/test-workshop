@@ -13,3 +13,9 @@ def test_price_calculation():
     assert price_calculation(65) == 200
     assert price_calculation(68) == 200
     assert price_calculation(-1) == None
+
+def test_if_exists():
+    assert if_exists("Kacper") == True
+    assert if_exists(0) == False
+    assert if_exists(125) == True
+    assert if_exists(False) == False

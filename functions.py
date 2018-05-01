@@ -24,11 +24,8 @@ def price_calculation(age):
     else:
         return None
 
-# The function tests if argument is set. If it is it will return True.
-# Otherwise the function will return False.
-
-def test_if_exists(arg):
-    if(arg):
+def if_exists(argument):
+    if(argument):
         return True
     else:
         return False
